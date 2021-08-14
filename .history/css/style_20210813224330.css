@@ -63,12 +63,12 @@
 /* font size for larger screens  */
 @media screen and (min-width: 968px) {
   :root {
-    --big-font-size: 3rem;
-    --h1-font-size: 2.5rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: 0.875rem;
-    --smaller-font-size: 0.813rem;
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 14px;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
   }
 }

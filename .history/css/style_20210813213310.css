@@ -1,0 +1,34 @@
+/* font-family: 'Lobster', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Titillium Web', sans-serif;
+*/
+
+/* ======= Variable CSS=========== */
+:root {
+  --header-height: 3rem;
+  /* ===== Colors ===== */
+  --hue-color: 46;
+
+  --first-color: hsl(var(--hue-color), 100%, 50%);
+  --first-color-second: hsl(var(--hue-color), 70%, 50%);
+  --first-color-strong: hsl(var(--hue-color), 100%, 30%);
+  --first-color-light: hsl(var(--hue-color), 100%, 80%);
+  --title-color: hsl(var(--hue-color), 10%, 15%);
+  --text-color: hsl(var(--hue-color), 10%, 40%);
+
+  --mainText-color: hsl(var(--hue-color), 10%, 20%);
+  --text-color-light: hsl(var(--hue-color), 10%, 65%);
+  --input-color: hsl(var(--hue-color), 70%, 88%);
+  --body-color: hsl(var(--hue-color), 66%, 99%);
+  --container-color: #ffffff;
+  --scroll-bar-color: hsl(var(--hue-color), 15%, 85%);
+  --scroll-thumb-color: hsl(var(--hue-color), 15%, 70%);
+  --gradient-color: linear-gradient(
+    90deg,
+    rgba(255, 195, 0, 1) 0%,
+    rgba(255, 231, 153, 1) 50%,
+    rgba(255, 214, 10, 1) 100%
+  );
+}

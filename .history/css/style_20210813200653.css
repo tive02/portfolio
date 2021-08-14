@@ -1,0 +1,15 @@
+/* font-family: 'Lobster', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Titillium Web', sans-serif;
+*/
+
+/* ======= Variable CSS=========== */
+:root {
+  --header-height: 3rem;
+  /* ===== Colors ===== */
+  --hue-color: 46;
+
+  --first-color: hsl(var(--hue-color), 100%, 50%);
+}
