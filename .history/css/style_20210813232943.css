@@ -158,7 +158,6 @@ img {
 .section {
   padding: 2rem 0 4rem;
   margin: auto;
-  min-height: 80vh;
 }
 
 .section__title {
