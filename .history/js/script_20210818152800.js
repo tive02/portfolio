@@ -34,5 +34,3 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrenIcon());
 });
-
-console.log("theme setting is working !!!");

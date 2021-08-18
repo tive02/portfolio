@@ -259,28 +259,3 @@ navbar-brand {
 .nav__icon {
   font-size: 1.2rem;
 }
-
-.nav__close {
-  position: absolute;
-  right: 1.3rem;
-  bottom: 0.5rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: var(--first-color);
-}
-.nav__close:hover {
-  color: var(--first-color-strong);
-}
-
-/* SHOW MENU */
-.show-menu {
-  bottom: 0;
-}
-/* active link */
-.active-link {
-  color: var(--first-color);
-}
-/* Change background header */
-.scroll-header {
-  box-shadow: 0 -1px 4px rgb(0, 0, 0, 0.15);
-}
