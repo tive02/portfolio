@@ -54,7 +54,7 @@ if (navToggle) {
 //Menu Hide
 /*  Validate exist of constant*/
 if (navClose) {
-  navClose.addEventListener("click", () => {
+  navToggle.addEventListener("click", () => {
     navMenu.classList.remove("show-menu");
   });
 }

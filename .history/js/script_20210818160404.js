@@ -51,13 +51,6 @@ if (navToggle) {
   });
 }
 
-//Menu Hide
-/*  Validate exist of constant*/
-if (navClose) {
-  navClose.addEventListener("click", () => {
-    navMenu.classList.remove("show-menu");
-  });
-}
 console.log("menu and  setting is working !!!");
 
 // ========== Remove menu profile  =======
@@ -68,7 +61,3 @@ function linkAction() {
   // user  click on nav__link, we removed show menu
   navMenu.classList.remove("show-menu");
 }
-
-navLink.forEach((n) => n.addEventListener("click", linkAction));
-
-console.log("Remove menu profile is working !!!");

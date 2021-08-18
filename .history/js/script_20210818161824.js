@@ -51,13 +51,6 @@ if (navToggle) {
   });
 }
 
-//Menu Hide
-/*  Validate exist of constant*/
-if (navClose) {
-  navClose.addEventListener("click", () => {
-    navMenu.classList.remove("show-menu");
-  });
-}
 console.log("menu and  setting is working !!!");
 
 // ========== Remove menu profile  =======
