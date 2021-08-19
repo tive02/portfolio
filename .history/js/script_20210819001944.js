@@ -75,7 +75,7 @@ console.log("Remove menu profile is working !!!");
 // ========== typewriter  =======
 
 new Typewriter("#typewriter", {
-  strings: ["Jorge Steven Moreno", "Web-developer", "React-developer"],
+  strings: ["Jorge Moreno", "web-developer", "React-developer"],
   autoStart: true,
   loop: true,
   cursor: "|",

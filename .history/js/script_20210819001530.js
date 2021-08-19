@@ -74,8 +74,10 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 console.log("Remove menu profile is working !!!");
 // ========== typewriter  =======
 
+import Typewriter from "typewriter-effect/dist/core";
+
 new Typewriter("#typewriter", {
-  strings: ["Jorge Steven Moreno", "Web-developer", "React-developer"],
+  strings: ["Jorge Moreno", "web-developer"],
   autoStart: true,
   loop: true,
   cursor: "|",
