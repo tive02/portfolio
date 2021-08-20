@@ -363,65 +363,6 @@ img {
 .Typewriter__cursor {
   font-size: var(--h1-font-size);
   color: var(--text-color);
-  font-family: var(--cursive-font);
-  font-weight: 600;
-}
-.home__subtitle {
-  text-align: center;
-  font-size: var(--h3-font-size);
-  color: var(--text-color);
-  font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1);
-  padding: 1rem 1.5rem;
-}
-
-/* ===Scroll down=== */
-@keyframes scrollDown {
-  0% {
-    margin-top: 14px;
-    opacity: 0;
-  }
-  15% {
-    margin-top: 14px;
-    opacity: 1;
-  }
-  30% {
-    margin-top: 16px;
-    opacity: 1;
-  }
-  50% {
-    margin-top: 30px;
-    opacity: 1;
-  }
-  100% {
-    margin-top: 30px;
-    opacity: 0;
-  }
-}
-.home__scroll {
-  display: flex;
-  justify-content: center;
-  margin-top: var(--mb-1);
-  animation: scrollDown 3s infinite;
-}
-.home__scroll-button {
-  color: var(--first-color);
-  transition: 0.5s;
-}
-.home__scroll-button:hover {
-  color: var(--first-color-strong);
-  transform: translateY(0.25rem);
-}
-.home__scroll-mouse {
-  font-size: var(--big-font-size);
-}
-.home__scroll-name {
-  font-size: var(--small-font-size);
-  color: var(--title-color);
-  font-weight: var(--font-medium);
-  margin: var(--mb-0-25);
-}
-
-.home__scroll-arrow {
-  font-size: var(--h3-font-size);
+  font-family: var(--titillium-font);
+  font-weight: 500;
 }

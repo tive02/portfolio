@@ -402,7 +402,6 @@ img {
   display: flex;
   justify-content: center;
   margin-top: var(--mb-1);
-  animation: scrollDown 3s infinite;
 }
 .home__scroll-button {
   color: var(--first-color);
@@ -414,6 +413,7 @@ img {
 }
 .home__scroll-mouse {
   font-size: var(--big-font-size);
+  animation: scrollDown 3s infinite;
 }
 .home__scroll-name {
   font-size: var(--small-font-size);
@@ -423,5 +423,5 @@ img {
 }
 
 .home__scroll-arrow {
-  font-size: var(--h3-font-size);
+  font-size: var(--h1-font-size);
 }

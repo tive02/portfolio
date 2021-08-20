@@ -383,45 +383,18 @@ img {
   }
   15% {
     margin-top: 14px;
-    opacity: 1;
+    opacity: 0;
   }
   30% {
     margin-top: 16px;
-    opacity: 1;
+    opacity: 0;
   }
   50% {
     margin-top: 30px;
-    opacity: 1;
+    opacity: 0;
   }
   100% {
     margin-top: 30px;
     opacity: 0;
   }
-}
-.home__scroll {
-  display: flex;
-  justify-content: center;
-  margin-top: var(--mb-1);
-  animation: scrollDown 3s infinite;
-}
-.home__scroll-button {
-  color: var(--first-color);
-  transition: 0.5s;
-}
-.home__scroll-button:hover {
-  color: var(--first-color-strong);
-  transform: translateY(0.25rem);
-}
-.home__scroll-mouse {
-  font-size: var(--big-font-size);
-}
-.home__scroll-name {
-  font-size: var(--small-font-size);
-  color: var(--title-color);
-  font-weight: var(--font-medium);
-  margin: var(--mb-0-25);
-}
-
-.home__scroll-arrow {
-  font-size: var(--h3-font-size);
 }
