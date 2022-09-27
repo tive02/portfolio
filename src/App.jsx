@@ -1,7 +1,7 @@
 
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
 import {render} from "react-dom";
-import  {Home, About, Works, Contacts} from "../src/pages/Index"
+import  {Home, About, Works, Contacts, Error404} from "../src/pages/Index"
 
 
 
@@ -11,10 +11,12 @@ function App() {
   render (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element= { <Home /> } />
-        <Route path="about" element= { <About /> } />
-        <Route path="works" element= { <Works /> } />
-        <Route path="Contacts" element= { <Contacts /> } />
+        <Route exact path="/" element= { <Home /> } />
+        <Route exact path="about" element= { <About /> } />
+        <Route exact path="works" element= { <Works /> } />
+        <Route exact path="Contacts" element= { <Contacts /> } />
+        <Route path="*" element= { <Error404 /> } />
+      
       </Routes>
     </BrowserRouter>,
     rootElement
