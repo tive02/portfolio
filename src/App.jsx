@@ -1,16 +1,24 @@
-import styled from "styled-components";
 
-const Titulo = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: blue;
-`;
+import { BrowserRouter , Routes, Route } from 'react-router-dom';
+import {render} from "react-dom";
+import  {Home, About, Works, Contacts} from "../src/pages/Index"
+
+
 
 function App() {
-  return (
-    <>
-      <Titulo>Hello World!</Titulo>
-    </>
+
+  const rootElement = document.getElementById("root");
+  render (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element= { <Home /> } />
+        <Route path="about" element= { <About /> } />
+        <Route path="works" element= { <Works /> } />
+        <Route path="Contacts" element= { <Contacts /> } />
+      </Routes>
+    </BrowserRouter>,
+    rootElement
+    
   );
 }
 
